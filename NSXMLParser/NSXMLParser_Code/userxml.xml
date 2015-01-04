@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<users>
+    <user Id="1" token="101" phone = "18801234567" >
+        <username>张三</username>
+        <sex>M</sex>
+        <photourl>http://1.com</photourl>
+    </user>
+    
+    <user Id="2" token="101" phone = "18801234567" >
+        <username>李四</username>
+        <photourl>http://2.com</photourl>
+        <sex>F</sex>
+    </user>
+    <user Id="3" token="101" phone = "18801234567" >
+        <username>王五</username>
+        <photourl>http://3.com</photourl>
+        <sex>M</sex>
+    </user>
+    <user Id="4" token="101" phone = "18801234567" >
+        <username>赵六</username>
+        <photourl>http://4.com</photourl>
+        <sex>F</sex>
+    </user>
+</users>
