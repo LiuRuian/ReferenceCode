@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GCDAsyncSocket.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <GCDAsyncSocketDelegate>
+@property (weak, nonatomic) IBOutlet UIButton *connetBtnAction;
+- (IBAction)coonetButAction:(UIButton *)sender;
+- (IBAction)writeBtnAction:(UIButton *)sender;
 
 
 @end

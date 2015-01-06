@@ -14,6 +14,9 @@
 		2547CC5D1A5A743400CF94A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2547CC5C1A5A743400CF94A9 /* Images.xcassets */; };
 		2547CC601A5A743400CF94A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2547CC5E1A5A743400CF94A9 /* LaunchScreen.xib */; };
 		2547CC6C1A5A743400CF94A9 /* GCDAsyncSocket_CodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2547CC6B1A5A743400CF94A9 /* GCDAsyncSocket_CodeTests.m */; };
+		25DD41501A5A7B07000274FA /* Documentation.html in Resources */ = {isa = PBXBuildFile; fileRef = 25DD414B1A5A7B07000274FA /* Documentation.html */; };
+		25DD41511A5A7B07000274FA /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD414D1A5A7B07000274FA /* GCDAsyncSocket.m */; };
+		25DD41521A5A7B07000274FA /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD414F1A5A7B07000274FA /* GCDAsyncUdpSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		2547CC651A5A743400CF94A9 /* GCDAsyncSocket_CodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDAsyncSocket_CodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2547CC6A1A5A743400CF94A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2547CC6B1A5A743400CF94A9 /* GCDAsyncSocket_CodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket_CodeTests.m; sourceTree = "<group>"; };
+		25DD414B1A5A7B07000274FA /* Documentation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
+		25DD414C1A5A7B07000274FA /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		25DD414D1A5A7B07000274FA /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		25DD414E1A5A7B07000274FA /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		25DD414F1A5A7B07000274FA /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		2547CC4E1A5A743400CF94A9 /* GCDAsyncSocket_Code */ = {
 			isa = PBXGroup;
 			children = (
+				25DD414A1A5A7B07000274FA /* GCD */,
 				2547CC531A5A743400CF94A9 /* AppDelegate.h */,
 				2547CC541A5A743400CF94A9 /* AppDelegate.m */,
 				2547CC561A5A743400CF94A9 /* ViewController.h */,
@@ -117,6 +126,18 @@
 				2547CC6A1A5A743400CF94A9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25DD414A1A5A7B07000274FA /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				25DD414B1A5A7B07000274FA /* Documentation.html */,
+				25DD414C1A5A7B07000274FA /* GCDAsyncSocket.h */,
+				25DD414D1A5A7B07000274FA /* GCDAsyncSocket.m */,
+				25DD414E1A5A7B07000274FA /* GCDAsyncUdpSocket.h */,
+				25DD414F1A5A7B07000274FA /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +223,7 @@
 				2547CC5B1A5A743400CF94A9 /* Main.storyboard in Resources */,
 				2547CC601A5A743400CF94A9 /* LaunchScreen.xib in Resources */,
 				2547CC5D1A5A743400CF94A9 /* Images.xcassets in Resources */,
+				25DD41501A5A7B07000274FA /* Documentation.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +241,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25DD41511A5A7B07000274FA /* GCDAsyncSocket.m in Sources */,
+				25DD41521A5A7B07000274FA /* GCDAsyncUdpSocket.m in Sources */,
 				2547CC581A5A743400CF94A9 /* ViewController.m in Sources */,
 				2547CC551A5A743400CF94A9 /* AppDelegate.m in Sources */,
 				2547CC521A5A743400CF94A9 /* main.m in Sources */,
@@ -412,6 +436,7 @@
 				2547CC711A5A743400CF94A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2547CC721A5A743400CF94A9 /* Build configuration list for PBXNativeTarget "GCDAsyncSocket_CodeTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +445,7 @@
 				2547CC741A5A743400CF94A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
