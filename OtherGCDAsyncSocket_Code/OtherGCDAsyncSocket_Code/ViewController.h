@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GCDAsyncSocket.h"
+@interface ViewController : UIViewController <GCDAsyncSocketDelegate>
 
-@interface ViewController : UIViewController
-
+- (IBAction)connetBtnAction:(UIButton *)sender;
+- (IBAction)sendMessageBtnAction:(UIButton *)sender;
 
 @end
 

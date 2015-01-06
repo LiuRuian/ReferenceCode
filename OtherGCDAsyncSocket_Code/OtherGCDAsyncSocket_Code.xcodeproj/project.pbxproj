@@ -14,6 +14,9 @@
 		25DD416D1A5A9676000274FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DD416C1A5A9676000274FA /* Images.xcassets */; };
 		25DD41701A5A9676000274FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DD416E1A5A9676000274FA /* LaunchScreen.xib */; };
 		25DD417C1A5A9676000274FA /* OtherGCDAsyncSocket_CodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD417B1A5A9676000274FA /* OtherGCDAsyncSocket_CodeTests.m */; };
+		25DD418B1A5A96AC000274FA /* Documentation.html in Resources */ = {isa = PBXBuildFile; fileRef = 25DD41861A5A96AC000274FA /* Documentation.html */; };
+		25DD418C1A5A96AC000274FA /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD41881A5A96AC000274FA /* GCDAsyncSocket.m */; };
+		25DD418D1A5A96AC000274FA /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DD418A1A5A96AC000274FA /* GCDAsyncUdpSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		25DD41751A5A9676000274FA /* OtherGCDAsyncSocket_CodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtherGCDAsyncSocket_CodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DD417A1A5A9676000274FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25DD417B1A5A9676000274FA /* OtherGCDAsyncSocket_CodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherGCDAsyncSocket_CodeTests.m; sourceTree = "<group>"; };
+		25DD41861A5A96AC000274FA /* Documentation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
+		25DD41871A5A96AC000274FA /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		25DD41881A5A96AC000274FA /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		25DD41891A5A96AC000274FA /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		25DD418A1A5A96AC000274FA /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		25DD415E1A5A9676000274FA /* OtherGCDAsyncSocket_Code */ = {
 			isa = PBXGroup;
 			children = (
+				25DD41851A5A96AC000274FA /* GCD */,
 				25DD41631A5A9676000274FA /* AppDelegate.h */,
 				25DD41641A5A9676000274FA /* AppDelegate.m */,
 				25DD41661A5A9676000274FA /* ViewController.h */,
@@ -117,6 +126,18 @@
 				25DD417A1A5A9676000274FA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25DD41851A5A96AC000274FA /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				25DD41861A5A96AC000274FA /* Documentation.html */,
+				25DD41871A5A96AC000274FA /* GCDAsyncSocket.h */,
+				25DD41881A5A96AC000274FA /* GCDAsyncSocket.m */,
+				25DD41891A5A96AC000274FA /* GCDAsyncUdpSocket.h */,
+				25DD418A1A5A96AC000274FA /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +223,7 @@
 				25DD416B1A5A9676000274FA /* Main.storyboard in Resources */,
 				25DD41701A5A9676000274FA /* LaunchScreen.xib in Resources */,
 				25DD416D1A5A9676000274FA /* Images.xcassets in Resources */,
+				25DD418B1A5A96AC000274FA /* Documentation.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +241,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25DD418C1A5A96AC000274FA /* GCDAsyncSocket.m in Sources */,
+				25DD418D1A5A96AC000274FA /* GCDAsyncUdpSocket.m in Sources */,
 				25DD41681A5A9676000274FA /* ViewController.m in Sources */,
 				25DD41651A5A9676000274FA /* AppDelegate.m in Sources */,
 				25DD41621A5A9676000274FA /* main.m in Sources */,
