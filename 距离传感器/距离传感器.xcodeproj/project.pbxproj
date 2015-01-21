@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25EB767A1A66A8DF00000886 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EB76791A66A8DF00000886 /* main.m */; };
+		25EB767D1A66A8DF00000886 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EB767C1A66A8DF00000886 /* AppDelegate.m */; };
+		25EB76801A66A8DF00000886 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EB767F1A66A8DF00000886 /* ViewController.m */; };
+		25EB76831A66A8DF00000886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EB76811A66A8DF00000886 /* Main.storyboard */; };
+		25EB76851A66A8DF00000886 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25EB76841A66A8DF00000886 /* Images.xcassets */; };
+		25EB76881A66A8DF00000886 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EB76861A66A8DF00000886 /* LaunchScreen.xib */; };
+		25EB76941A66A8DF00000886 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EB76931A66A8DF00000886 /* _____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25EB768E1A66A8DF00000886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25EB766C1A66A8DF00000886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25EB76731A66A8DF00000886;
+			remoteInfo = "距离传感器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25EB76741A66A8DF00000886 /* 距离传感器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "距离传感器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EB76781A66A8DF00000886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25EB76791A66A8DF00000886 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25EB767B1A66A8DF00000886 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25EB767C1A66A8DF00000886 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25EB767E1A66A8DF00000886 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25EB767F1A66A8DF00000886 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25EB76821A66A8DF00000886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25EB76841A66A8DF00000886 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25EB76871A66A8DF00000886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		25EB768D1A66A8DF00000886 /* 距离传感器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "距离传感器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EB76921A66A8DF00000886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25EB76931A66A8DF00000886 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25EB76711A66A8DF00000886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EB768A1A66A8DF00000886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25EB766B1A66A8DF00000886 = {
+			isa = PBXGroup;
+			children = (
+				25EB76761A66A8DF00000886 /* 距离传感器 */,
+				25EB76901A66A8DF00000886 /* 距离传感器Tests */,
+				25EB76751A66A8DF00000886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25EB76751A66A8DF00000886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25EB76741A66A8DF00000886 /* 距离传感器.app */,
+				25EB768D1A66A8DF00000886 /* 距离传感器Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25EB76761A66A8DF00000886 /* 距离传感器 */ = {
+			isa = PBXGroup;
+			children = (
+				25EB767B1A66A8DF00000886 /* AppDelegate.h */,
+				25EB767C1A66A8DF00000886 /* AppDelegate.m */,
+				25EB767E1A66A8DF00000886 /* ViewController.h */,
+				25EB767F1A66A8DF00000886 /* ViewController.m */,
+				25EB76811A66A8DF00000886 /* Main.storyboard */,
+				25EB76841A66A8DF00000886 /* Images.xcassets */,
+				25EB76861A66A8DF00000886 /* LaunchScreen.xib */,
+				25EB76771A66A8DF00000886 /* Supporting Files */,
+			);
+			path = "距离传感器";
+			sourceTree = "<group>";
+		};
+		25EB76771A66A8DF00000886 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25EB76781A66A8DF00000886 /* Info.plist */,
+				25EB76791A66A8DF00000886 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25EB76901A66A8DF00000886 /* 距离传感器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				25EB76931A66A8DF00000886 /* _____Tests.m */,
+				25EB76911A66A8DF00000886 /* Supporting Files */,
+			);
+			path = "距离传感器Tests";
+			sourceTree = "<group>";
+		};
+		25EB76911A66A8DF00000886 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25EB76921A66A8DF00000886 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25EB76731A66A8DF00000886 /* 距离传感器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EB76971A66A8DF00000886 /* Build configuration list for PBXNativeTarget "距离传感器" */;
+			buildPhases = (
+				25EB76701A66A8DF00000886 /* Sources */,
+				25EB76711A66A8DF00000886 /* Frameworks */,
+				25EB76721A66A8DF00000886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "距离传感器";
+			productName = "距离传感器";
+			productReference = 25EB76741A66A8DF00000886 /* 距离传感器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25EB768C1A66A8DF00000886 /* 距离传感器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EB769A1A66A8DF00000886 /* Build configuration list for PBXNativeTarget "距离传感器Tests" */;
+			buildPhases = (
+				25EB76891A66A8DF00000886 /* Sources */,
+				25EB768A1A66A8DF00000886 /* Frameworks */,
+				25EB768B1A66A8DF00000886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25EB768F1A66A8DF00000886 /* PBXTargetDependency */,
+			);
+			name = "距离传感器Tests";
+			productName = "距离传感器Tests";
+			productReference = 25EB768D1A66A8DF00000886 /* 距离传感器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25EB766C1A66A8DF00000886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ruian;
+				TargetAttributes = {
+					25EB76731A66A8DF00000886 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					25EB768C1A66A8DF00000886 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 25EB76731A66A8DF00000886;
+					};
+				};
+			};
+			buildConfigurationList = 25EB766F1A66A8DF00000886 /* Build configuration list for PBXProject "距离传感器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25EB766B1A66A8DF00000886;
+			productRefGroup = 25EB76751A66A8DF00000886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25EB76731A66A8DF00000886 /* 距离传感器 */,
+				25EB768C1A66A8DF00000886 /* 距离传感器Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25EB76721A66A8DF00000886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EB76831A66A8DF00000886 /* Main.storyboard in Resources */,
+				25EB76881A66A8DF00000886 /* LaunchScreen.xib in Resources */,
+				25EB76851A66A8DF00000886 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EB768B1A66A8DF00000886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25EB76701A66A8DF00000886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EB76801A66A8DF00000886 /* ViewController.m in Sources */,
+				25EB767D1A66A8DF00000886 /* AppDelegate.m in Sources */,
+				25EB767A1A66A8DF00000886 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EB76891A66A8DF00000886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EB76941A66A8DF00000886 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25EB768F1A66A8DF00000886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25EB76731A66A8DF00000886 /* 距离传感器 */;
+			targetProxy = 25EB768E1A66A8DF00000886 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25EB76811A66A8DF00000886 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25EB76821A66A8DF00000886 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25EB76861A66A8DF00000886 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25EB76871A66A8DF00000886 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25EB76951A66A8DF00000886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25EB76961A66A8DF00000886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25EB76981A66A8DF00000886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "距离传感器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25EB76991A66A8DF00000886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "距离传感器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25EB769B1A66A8DF00000886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "距离传感器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/距离传感器.app/距离传感器";
+			};
+			name = Debug;
+		};
+		25EB769C1A66A8DF00000886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "距离传感器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/距离传感器.app/距离传感器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25EB766F1A66A8DF00000886 /* Build configuration list for PBXProject "距离传感器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EB76951A66A8DF00000886 /* Debug */,
+				25EB76961A66A8DF00000886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25EB76971A66A8DF00000886 /* Build configuration list for PBXNativeTarget "距离传感器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EB76981A66A8DF00000886 /* Debug */,
+				25EB76991A66A8DF00000886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25EB769A1A66A8DF00000886 /* Build configuration list for PBXNativeTarget "距离传感器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EB769B1A66A8DF00000886 /* Debug */,
+				25EB769C1A66A8DF00000886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25EB766C1A66A8DF00000886 /* Project object */;
+}
