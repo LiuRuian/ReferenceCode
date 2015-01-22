@@ -14,6 +14,7 @@
 		2568AC621A6A511C009850F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2568AC611A6A511C009850F4 /* Images.xcassets */; };
 		2568AC651A6A511C009850F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2568AC631A6A511C009850F4 /* LaunchScreen.xib */; };
 		2568AC711A6A511C009850F4 /* AudioToolbox_CodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2568AC701A6A511C009850F4 /* AudioToolbox_CodeTests.m */; };
+		2568AC7B1A6A51A5009850F4 /* alarmSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2568AC7A1A6A51A5009850F4 /* alarmSound.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		2568AC6A1A6A511C009850F4 /* AudioToolbox_CodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioToolbox_CodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2568AC6F1A6A511C009850F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2568AC701A6A511C009850F4 /* AudioToolbox_CodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioToolbox_CodeTests.m; sourceTree = "<group>"; };
+		2568AC7A1A6A51A5009850F4 /* alarmSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = alarmSound.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		2568AC531A6A511C009850F4 /* AudioToolbox_Code */ = {
 			isa = PBXGroup;
 			children = (
+				2568AC7A1A6A51A5009850F4 /* alarmSound.caf */,
 				2568AC581A6A511C009850F4 /* AppDelegate.h */,
 				2568AC591A6A511C009850F4 /* AppDelegate.m */,
 				2568AC5B1A6A511C009850F4 /* ViewController.h */,
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2568AC7B1A6A51A5009850F4 /* alarmSound.caf in Resources */,
 				2568AC601A6A511C009850F4 /* Main.storyboard in Resources */,
 				2568AC651A6A511C009850F4 /* LaunchScreen.xib in Resources */,
 				2568AC621A6A511C009850F4 /* Images.xcassets in Resources */,
@@ -297,9 +301,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "0990b17f-f0b1-4f45-aace-c53185f3794a";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -332,8 +337,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "0990b17f-f0b1-4f45-aace-c53185f3794a";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -346,6 +352,7 @@
 				INFOPLIST_FILE = AudioToolbox_Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0990b17f-f0b1-4f45-aace-c53185f3794a";
 			};
 			name = Debug;
 		};
@@ -356,6 +363,7 @@
 				INFOPLIST_FILE = AudioToolbox_Code/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0990b17f-f0b1-4f45-aace-c53185f3794a";
 			};
 			name = Release;
 		};

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4DB7BA15-3392-46D0-826D-7E04DC48BD89</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AudioToolbox_Code</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>76A7B90A69F15EF9206B5BDD50F753E0EDAE5023</key>
+		<string>https://github.com/LiuRuian/ReferenceCode</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AudioToolbox_Code/AudioToolbox_Code.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>76A7B90A69F15EF9206B5BDD50F753E0EDAE5023</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LiuRuian/ReferenceCode</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>76A7B90A69F15EF9206B5BDD50F753E0EDAE5023</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>76A7B90A69F15EF9206B5BDD50F753E0EDAE5023</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ReferenceCode</string>
+		</dict>
+	</array>
+</dict>
+</plist>
