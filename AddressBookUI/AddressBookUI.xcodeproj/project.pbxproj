@@ -14,6 +14,8 @@
 		256EFC541A66541E006DA713 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256EFC531A66541E006DA713 /* Images.xcassets */; };
 		256EFC571A66541E006DA713 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 256EFC551A66541E006DA713 /* LaunchScreen.xib */; };
 		256EFC631A66541E006DA713 /* AddressBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 256EFC621A66541E006DA713 /* AddressBookUITests.m */; };
+		256EFC6F1A6656E4006DA713 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256EFC6E1A6656E4006DA713 /* AddressBookUI.framework */; };
+		256EFC721A665C60006DA713 /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256EFC711A665C60006DA713 /* PeopleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,11 @@
 		256EFC5C1A66541E006DA713 /* AddressBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		256EFC611A66541E006DA713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		256EFC621A66541E006DA713 /* AddressBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookUITests.m; sourceTree = "<group>"; };
+		256EFC6C1A6655DB006DA713 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		256EFC6D1A6655DB006DA713 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		256EFC6E1A6656E4006DA713 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		256EFC701A665C60006DA713 /* PeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleViewController.h; sourceTree = "<group>"; };
+		256EFC711A665C60006DA713 /* PeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256EFC6F1A6656E4006DA713 /* AddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +71,7 @@
 		256EFC3A1A66541E006DA713 = {
 			isa = PBXGroup;
 			children = (
+				256EFC6E1A6656E4006DA713 /* AddressBookUI.framework */,
 				256EFC451A66541E006DA713 /* AddressBookUI */,
 				256EFC5F1A66541E006DA713 /* AddressBookUITests */,
 				256EFC441A66541E006DA713 /* Products */,
@@ -85,6 +94,8 @@
 				256EFC4B1A66541E006DA713 /* AppDelegate.m */,
 				256EFC4D1A66541E006DA713 /* ViewController.h */,
 				256EFC4E1A66541E006DA713 /* ViewController.m */,
+				256EFC701A665C60006DA713 /* PeopleViewController.h */,
+				256EFC711A665C60006DA713 /* PeopleViewController.m */,
 				256EFC501A66541E006DA713 /* Main.storyboard */,
 				256EFC531A66541E006DA713 /* Images.xcassets */,
 				256EFC551A66541E006DA713 /* LaunchScreen.xib */,
@@ -220,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				256EFC4F1A66541E006DA713 /* ViewController.m in Sources */,
+				256EFC721A665C60006DA713 /* PeopleViewController.m in Sources */,
 				256EFC4C1A66541E006DA713 /* AppDelegate.m in Sources */,
 				256EFC491A66541E006DA713 /* main.m in Sources */,
 			);
@@ -248,6 +260,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				256EFC511A66541E006DA713 /* Base */,
+				256EFC6C1A6655DB006DA713 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -256,6 +269,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				256EFC561A66541E006DA713 /* Base */,
+				256EFC6D1A6655DB006DA713 /* zh-Hans */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -297,9 +311,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "0990b17f-f0b1-4f45-aace-c53185f3794a";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -332,8 +347,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "0990b17f-f0b1-4f45-aace-c53185f3794a";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -344,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AddressBookUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AddressBookUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
