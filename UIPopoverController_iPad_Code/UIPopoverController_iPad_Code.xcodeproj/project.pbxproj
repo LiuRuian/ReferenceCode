@@ -14,6 +14,7 @@
 		25D67B741A679F7200DDA88C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D67B731A679F7200DDA88C /* Images.xcassets */; };
 		25D67B771A679F7300DDA88C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D67B751A679F7300DDA88C /* LaunchScreen.xib */; };
 		25D67B831A679F7300DDA88C /* UIPopoverController_iPad_CodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D67B821A679F7300DDA88C /* UIPopoverController_iPad_CodeTests.m */; };
+		25D67B8E1A67B92300DDA88C /* PopTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D67B8D1A67B92300DDA88C /* PopTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		25D67B7C1A679F7300DDA88C /* UIPopoverController_iPad_CodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIPopoverController_iPad_CodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D67B811A679F7300DDA88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25D67B821A679F7300DDA88C /* UIPopoverController_iPad_CodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIPopoverController_iPad_CodeTests.m; sourceTree = "<group>"; };
+		25D67B8C1A67B92300DDA88C /* PopTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTableViewController.h; sourceTree = "<group>"; };
+		25D67B8D1A67B92300DDA88C /* PopTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				25D67B6D1A679F7200DDA88C /* ViewController.h */,
 				25D67B6E1A679F7200DDA88C /* ViewController.m */,
 				25D67B701A679F7200DDA88C /* Main.storyboard */,
+				25D67B8C1A67B92300DDA88C /* PopTableViewController.h */,
+				25D67B8D1A67B92300DDA88C /* PopTableViewController.m */,
 				25D67B731A679F7200DDA88C /* Images.xcassets */,
 				25D67B751A679F7300DDA88C /* LaunchScreen.xib */,
 				25D67B661A679F7200DDA88C /* Supporting Files */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25D67B6F1A679F7200DDA88C /* ViewController.m in Sources */,
+				25D67B8E1A67B92300DDA88C /* PopTableViewController.m in Sources */,
 				25D67B6C1A679F7200DDA88C /* AppDelegate.m in Sources */,
 				25D67B691A679F7200DDA88C /* main.m in Sources */,
 			);
