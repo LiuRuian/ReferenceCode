@@ -14,6 +14,7 @@
 		25D67BA91A67CD0400DDA88C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25D67BA81A67CD0400DDA88C /* Images.xcassets */; };
 		25D67BAC1A67CD0400DDA88C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D67BAA1A67CD0400DDA88C /* LaunchScreen.xib */; };
 		25D67BB81A67CD0500DDA88C /* Modal_CodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D67BB71A67CD0500DDA88C /* Modal_CodeTests.m */; };
+		25D67BC31A67CD2600DDA88C /* ModalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D67BC21A67CD2600DDA88C /* ModalTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		25D67BB11A67CD0500DDA88C /* Modal_CodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Modal_CodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25D67BB61A67CD0500DDA88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25D67BB71A67CD0500DDA88C /* Modal_CodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Modal_CodeTests.m; sourceTree = "<group>"; };
+		25D67BC11A67CD2600DDA88C /* ModalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalTableViewController.h; sourceTree = "<group>"; };
+		25D67BC21A67CD2600DDA88C /* ModalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				25D67BA01A67CD0400DDA88C /* AppDelegate.m */,
 				25D67BA21A67CD0400DDA88C /* ViewController.h */,
 				25D67BA31A67CD0400DDA88C /* ViewController.m */,
+				25D67BC11A67CD2600DDA88C /* ModalTableViewController.h */,
+				25D67BC21A67CD2600DDA88C /* ModalTableViewController.m */,
 				25D67BA51A67CD0400DDA88C /* Main.storyboard */,
 				25D67BA81A67CD0400DDA88C /* Images.xcassets */,
 				25D67BAA1A67CD0400DDA88C /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25D67BA41A67CD0400DDA88C /* ViewController.m in Sources */,
+				25D67BC31A67CD2600DDA88C /* ModalTableViewController.m in Sources */,
 				25D67BA11A67CD0400DDA88C /* AppDelegate.m in Sources */,
 				25D67B9E1A67CD0400DDA88C /* main.m in Sources */,
 			);
