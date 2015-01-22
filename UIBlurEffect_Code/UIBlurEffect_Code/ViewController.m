@@ -7,16 +7,37 @@
 //
 
 #import "ViewController.h"
-
+#import "UIImage+ImageEffects.h"
 @interface ViewController ()
-
+@property (nonatomic, strong) UIImageView *blurImageView;
+@property (nonatomic, strong) UIVisualEffectView *visualEffectView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIImage *image = [UIImage imageNamed:@"bg"];
+    
+    UIColor *tintColor = [UIColor colorWithWhite:1.0 alpha:0.1];
+    UIImage *newImage = [image applyBlurWithRadius:8 tintColor:tintColor saturationDeltaFactor:2.2 maskImage:nil] ;
+    
+
+    
+    self.blurImageView = [[UIImageView alloc] initWithFrame:self.view.frame];
+    self.blurImageView.image = newImage;
+    
+//    UIVisualEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleExtraLight];
+//    
+//    UIVisualEffectView *visualEffectView = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
+//    self.visualEffectView = visualEffectView;
+//    visualEffectView.alpha = 0.7;
+//    visualEffectView.frame = self.blurImageView.bounds;
+//    
+//    [self.blurImageView addSubview:visualEffectView];
+    [self.view addSubview:self.blurImageView];
+
 }
 
 - (void)didReceiveMemoryWarning {

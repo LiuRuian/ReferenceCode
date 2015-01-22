@@ -14,6 +14,8 @@
 		25479DEC1A6CFD3F00F01DA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25479DEB1A6CFD3F00F01DA0 /* Images.xcassets */; };
 		25479DEF1A6CFD3F00F01DA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25479DED1A6CFD3F00F01DA0 /* LaunchScreen.xib */; };
 		25479DFB1A6CFD3F00F01DA0 /* UIBlurEffect_CodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25479DFA1A6CFD3F00F01DA0 /* UIBlurEffect_CodeTests.m */; };
+		25479E051A6CFDA100F01DA0 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25479E041A6CFDA100F01DA0 /* bg@2x.png */; };
+		25479E081A6D11C700F01DA0 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 25479E071A6D11C700F01DA0 /* UIImage+ImageEffects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		25479DF41A6CFD3F00F01DA0 /* UIBlurEffect_CodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIBlurEffect_CodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25479DF91A6CFD3F00F01DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25479DFA1A6CFD3F00F01DA0 /* UIBlurEffect_CodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIBlurEffect_CodeTests.m; sourceTree = "<group>"; };
+		25479E041A6CFDA100F01DA0 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		25479E061A6D11C700F01DA0 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		25479E071A6D11C700F01DA0 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 		25479DDD1A6CFD3F00F01DA0 /* UIBlurEffect_Code */ = {
 			isa = PBXGroup;
 			children = (
+				25479E061A6D11C700F01DA0 /* UIImage+ImageEffects.h */,
+				25479E071A6D11C700F01DA0 /* UIImage+ImageEffects.m */,
+				25479E041A6CFDA100F01DA0 /* bg@2x.png */,
 				25479DE21A6CFD3F00F01DA0 /* AppDelegate.h */,
 				25479DE31A6CFD3F00F01DA0 /* AppDelegate.m */,
 				25479DE51A6CFD3F00F01DA0 /* ViewController.h */,
@@ -201,6 +209,7 @@
 			files = (
 				25479DEA1A6CFD3F00F01DA0 /* Main.storyboard in Resources */,
 				25479DEF1A6CFD3F00F01DA0 /* LaunchScreen.xib in Resources */,
+				25479E051A6CFDA100F01DA0 /* bg@2x.png in Resources */,
 				25479DEC1A6CFD3F00F01DA0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25479E081A6D11C700F01DA0 /* UIImage+ImageEffects.m in Sources */,
 				25479DE71A6CFD3F00F01DA0 /* ViewController.m in Sources */,
 				25479DE41A6CFD3F00F01DA0 /* AppDelegate.m in Sources */,
 				25479DE11A6CFD3F00F01DA0 /* main.m in Sources */,
